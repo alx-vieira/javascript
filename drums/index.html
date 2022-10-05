@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drums</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Drums</h1>
+
+    <div class="keys">
+        <div data-key="keyq" class="key">
+            <p>Q</p>
+            <!-- <img src="images/bumbo.png" id="bumbo" alt="bumbo"> -->
+        </div>
+        <div data-key="keyw" class="key">W</div>
+        <div data-key="keye" class="key">E</div>
+
+        <div data-key="keya" class="key">A</div>
+        <div data-key="keys" class="key">
+            <p>S</p>
+            <!-- <img src="images/prato.png" id="prato" alt="prato"> -->
+        </div>
+        <div data-key="keyd" class="key">D</div>
+
+        <div data-key="keyz" class="key">Z</div>
+        <div data-key="keyx" class="key">X</div>
+        <div data-key="keyc" class="key">C</div>
+    </div>
+    <div class="composer">
+        <input type="text" id="input" placeholder="Make a composition..." />
+        <input type="number" id="bpm" placeholder="Indicate a BPM" />
+        <button id="play">Play</button>
+        <button id="clear">Clear Composition</button>
+    </div>
+
+    <footer>Alex Vieira</footer>
+
+    <audio id="s_keyq"><source src="sounds/keyq.wav" type="audio/wav"></audio>
+    <audio id="s_keyw"><source src="sounds/keyw.wav" type="audio/wav"></audio>
+    <audio id="s_keye"><source src="sounds/keye.wav" type="audio/wav"></audio>
+    <audio id="s_keya"><source src="sounds/keya.wav" type="audio/wav"></audio>
+    <audio id="s_keys"><source src="sounds/keys.wav" type="audio/wav"></audio>
+    <audio id="s_keyd"><source src="sounds/keyd.wav" type="audio/wav"></audio>
+    <audio id="s_keyz"><source src="sounds/keyz.wav" type="audio/wav"></audio>
+    <audio id="s_keyx"><source src="sounds/keyx.wav" type="audio/wav"></audio>
+    <audio id="s_keyc"><source src="sounds/keyc.wav" type="audio/wav"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
