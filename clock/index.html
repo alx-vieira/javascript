@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Clock</h1>
+    <div class="selector">
+        <button id="analogic-button" class="btn analogic-button active">Analogic</button>
+        <button id="digital-button" class="btn digital-button">Digital</button>
+    </div>
+
+    <div class="relogio">
+        <div class="riscos">
+            <div class="risco" style="transform: rotate(0deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(30deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(60deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(90deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(120deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(150deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(180deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(210deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(240deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(270deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(300deg)"><div class="ponto"></div></div>
+            <div class="risco" style="transform: rotate(330deg)"><div class="ponto"></div></div>
+        </div>
+        <div class="ponteiros">
+            <div id="p_s" class="p p_s"></div>
+            <div id="p_m" class="p p_m"></div>
+            <div id="p_h" class="p p_h"></div>
+            <div class="encaixe"></div>
+        </div>
+        
+        <div class="digital ocultar" id="digital"></div>
+    </div>
+
+    <footer>Alex Vieira</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
