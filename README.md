@@ -11,4 +11,4 @@ Data from [Open Werather API](https://openweathermap.org/).
 
 Weather station with search by city, using [GeocodingAPI](https://openweathermap.org/api/geocoding-api) and [Current Weather Data](https://openweathermap.org/current).
 
-* Needs a API key to connect with the API.
+* Needs an API key to connect with the API.
